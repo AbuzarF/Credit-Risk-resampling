@@ -52,9 +52,7 @@
 ## Summary
 
 ### Which one seems to perform best? How do you know it performs best?
-#### Keeping in view, Model 2 performed better. The balanced accuracy score improved from 0.95204 to 0.99367 and the recall for high risk loans also improved from 0.91 to 0.99. 
-#### However, when considering the precision scores, Model 1 performed slightly better(0.85), then 0.84 in Model 2. The overall performance of Model 2 is better.  But when comparing the pecision scores, Model 1 appeared to work better because the precision score is more important.
-
+#### Model 2 performed better if we compare both models. The balanced accuracy score improved from 0.95204 to 0.99367 and the recall for high risk loans also improved from 0.91 to 0.99. However, when comparing precision scores, Model 1 performed slightly better 0.85 then 0.84 in Model 2 as precision score considered more important.
 
 ## Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 #### The answer is Yes. It is important to predict '1's  accurately as it represents hig risk loans. It would be costly to flag a high risk loans as non-risky. The overall performance of the precision score gain importance to  look at.
