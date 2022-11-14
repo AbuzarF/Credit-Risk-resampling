@@ -46,13 +46,8 @@
 
 ## Summary
 
-### Which one seems to perform best? How do you know it performs best?
 #### Model 2 performed better if we compare both models. The balanced accuracy score improved from 0.95204 to 0.99367 and the recall for high risk loans also improved from 0.91 to 0.99. However, when comparing precision scores, Model 1 performed slightly better 0.85 then 0.84 in Model 2 as precision score considered more important.
-
-## Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-#### The answer is Yes. It is important to predict '1's  accurately as it represents hig risk loans. It would be costly to flag a high risk loans as non-risky. The overall performance of the precision score gain importance to  look at.
-
-## If you do not recommend any of the models, please justify your reasoning.
+#### The performance depend on the problem we're trying to solve. It is important to predict '1's  accurately as it represents hig risk loans. It would be costly to flag a high risk loans as non-risky. The overall performance of the precision score gain importance to  look at.
 #### Comparing precision scores, non of the models accurately classifying high-risk-loans. It is recommended to test other machine learning models, such as Random Forest or Support Vector Machine. If these models produce better precision scores then LogisticRegression model, it is worth considering looking at it.
 
  
